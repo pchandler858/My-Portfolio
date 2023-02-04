@@ -60,7 +60,7 @@ body {
   position: relative;
 }
 
-.btn-white:hover #btn {
+.btn-white:hover #btn-white {
   color: #fff;
 }
 
@@ -85,6 +85,7 @@ body {
 
 .btn-blue {
   background: none;
+  color: #fff;
   border: 2px solid #fff;
   font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
@@ -98,9 +99,8 @@ body {
   position: relative;
 }
 
-.btn-blue:hover #btn {
+.btn-blue:hover {
   color: #4da0af;
-  /* background: none; */
 }
 
 .btn-blue::before {
@@ -111,7 +111,6 @@ body {
   width: 100%;
   height: 100%;
   background: white;
-  /* background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%); */
   z-index: -1;
   transition: transform 0.5s;
   transform-origin: 0 0;
