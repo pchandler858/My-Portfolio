@@ -1,5 +1,6 @@
 :root {
   --dark-blue: #262341;
+  --light-blue: #4ca1af;
   --white: #fff;
 }
 
@@ -12,6 +13,10 @@ body {
 
 section {
   padding: 3.5rem 0;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 #hero {
@@ -131,11 +136,19 @@ section {
   transform: scaleX(1);
 }
 
+.btn-project {
+  min-width: 1rem;
+}
+
 .gradient-text {
   background-image: linear-gradient(135deg, #2c3e50 0%, #4ca1af);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.gradient-text:hover {
+  transform: translate(2px);
 }
 
 .section-title {
@@ -151,6 +164,18 @@ section {
 
 .dark-blue-text {
   color: var(--dark-blue) !important;
+}
+
+.source-code {
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: 750;
+  transition: all 0.4s ease-in-out;
+}
+
+.source-code:hover {
+  color: var(--light-blue);
+  transform: translate(2px);
 }
 
 /* For extremely small screen devices (595px and below) */
