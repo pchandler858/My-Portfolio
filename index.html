@@ -22,6 +22,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       --
     />
+    <script
+      src="https://kit.fontawesome.com/86156a3e2b.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,8 +37,24 @@
 
   <body>
     <div id="top"></div>
+    <nav
+      class="navbar navbar-expand-sm bg-transparent navbar-light justify-content-end fw-bolder"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT ME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
 
     <!-- **** Hero Section **** -->
+
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title">
@@ -70,7 +90,20 @@
           <div class="col-md-6 col-sm-12">
             <div>
               <p class="text-start">
-                I am a well-rounded individual with a diverse range of interests, including sports, smoking meats, cooking, and keeping up with new technology. As a nerd at heart, I enjoy learning about the latest gadgets and innovations. Despite this, I maintain a light-hearted approach to life and am known for my considerate and easy-going personality. I come from a close-knit family and value my relationships with them greatly. Originally from San Diego, I graduated from San Diego State University before moving to Oregon in 2015. With over a decade of experience as a mortgage loan processor, I have a solid background in finance and a strong work ethic. Whether working out, watching movies, or trying new foods, I approach each experience with enthusiasm and a desire to make the most of life.
+                I am a well-rounded individual with a diverse range of
+                interests, including sports, smoking meats, cooking, and keeping
+                up with new technology. As a nerd at heart, I enjoy learning
+                about the latest gadgets and innovations. Despite this, I
+                maintain a light-hearted approach to life and am known for my
+                considerate and easy-going personality. I come from a close-knit
+                family and value my relationships with them greatly. Originally
+                from San Diego, I graduated from San Diego State University
+                before moving to Oregon in 2015. With over a decade of
+                experience as a mortgage loan processor, I have a solid
+                background in finance and a strong work ethic. Whether working
+                out, watching movies, or trying new foods, I approach each
+                experience with enthusiasm and a desire to make the most of
+                life.
               </p>
               <span class="d-md-flex mt-3">
                 <a target="_blank" href="assets/resume.pdf">
@@ -97,11 +130,8 @@
                 <h3 class="project-title">Robo Friends</h3>
                 <div>
                   <p class="mb-4 text-start">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A Create-react-app project that uses React Redux to manage
+                    it's states, fetch APIs .
                   </p>
                 </div>
                 <a
@@ -125,7 +155,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://pchandler858.github.io/RoboFriends/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -135,8 +169,8 @@
                   >
                     <img
                       alt="Project Image"
-                      class="img-fluid"
-                      src="assets/robProject.png"
+                      class="img-fluid img-project"
+                      src="assets/project-robo3.png"
                     />
                   </div>
                 </a>
@@ -149,28 +183,28 @@
           <div class="row pb-5">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-title">Project 2</h3>
+                <h3 class="project-title">Chore Door Game</h3>
                 <div>
                   <p class="mb-4 text-start">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A single-page interactive game built with JavaScript using
+                    the DOM.
                   </p>
                 </div>
-                <!-- TODO: add correct link -->
-                <a rel="noreferrer" target="_blank" href="#">
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://pchandler858.github.io/Chore-Door-Game/"
+                >
                   <button class="btn-white btn-project">
                     <span class="gradient-text" id="btn-white">See Live</span>
                   </button>
                 </a>
-                <!-- TODO: add correct link -->
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="gradient-text source-code pulse"
-                  href="#"
+                  href="https://github.com/pchandler858/Chore-Door-Game"
                 >
                   Source Code
                 </a>
@@ -178,7 +212,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://pchandler858.github.io/Chore-Door-Game/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -188,8 +226,8 @@
                   >
                     <img
                       alt="Project Image"
-                      class="img-fluid"
-                      src="assets/underConstruction.png"
+                      class="img-fluid img-project"
+                      src="assets/project-choor_door3.png"
                     />
                   </div>
                 </a>
@@ -202,28 +240,27 @@
           <div class="row pb-5">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-title">Project 3</h3>
+                <h3 class="project-title">Movie Lookup</h3>
                 <div>
                   <p class="mb-4 text-start">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A simple app that allows you to search for movies using the
+                    TMDB API.
                   </p>
                 </div>
-                <!-- TODO: add correct link -->
-                <a rel="noreferrer" target="_blank" href="#">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://pchandler858.github.io/movie_lookup/"
+                >
                   <button class="btn-white btn-project">
                     <span class="gradient-text" id="btn-white">See Live</span>
                   </button>
                 </a>
-                <!-- TODO: add correct link -->
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="gradient-text source-code"
-                  href="#"
+                  href="https://github.com/pchandler858/movie_lookup"
                 >
                   Source Code
                 </a>
@@ -231,7 +268,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://pchandler858.github.io/movie_lookup/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -241,8 +282,8 @@
                   >
                     <img
                       alt="Project Image"
-                      class="img-fluid"
-                      src="assets/underConstruction.png"
+                      class="img-fluid img-project"
+                      src="assets/project-movie_lookup3.png"
                     />
                   </div>
                 </a>
@@ -280,14 +321,22 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          <a
+            rel="noreferrer"
+            href="https://twitter.com/PrestonChandler"
+            target="_blank"
+          >
+            <i class="fa-brands fa-twitter fa-2x"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/preston-chandler/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-2x"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
+          <a rel="noreferrer" href="https://github.com/pchandler858" target="_blank">
+            <i class="fa-brands fa-github fa-2x"></i>
           </a>
         </div>
 
@@ -311,6 +360,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+
     <script src="script.js"></script>
   </body>
 </html>
