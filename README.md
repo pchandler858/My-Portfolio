@@ -4,4 +4,4 @@ My self coded personal website built using HTML, CSS, Bootstrap5 and Javascript.
 
 ## Demonstration
 
-![screen-gif](/assets/demo.gif)
+![screen-gif](/assets/demo1.gif)
