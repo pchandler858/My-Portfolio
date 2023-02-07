@@ -194,10 +194,10 @@ h3.project-title {
   }
 }
 
-.navbar {
+/* .navbar {
   padding-right: 20px;
   font-size: 1rem;
-}
+} */
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {
