@@ -2,7 +2,6 @@
   --dark-blue: #262341;
   --light-blue: #4ca1af;
   --white: #fff;
-  --blue-gradient: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
 }
 
 body {
@@ -16,8 +15,9 @@ section {
   padding: 3.5rem 0;
 }
 
-a:link {
+a {
   text-decoration: none;
+  color: inherit;
 }
 
 #hero {
@@ -30,10 +30,6 @@ a:link {
   color: var(--dark-blue);
   padding: 0rem 5.6rem;
   margin-bottom: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   z-index: -1;
 }
 
@@ -195,6 +191,9 @@ h3.project-title {
 .image-animation:hover {
   box-shadow: 0 0 0 5px var(--light-blue);
   transition: 0.5s ease;
+}
+
+.footer {
 }
 
 /*=============================================
