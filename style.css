@@ -1,10 +1,11 @@
 :root {
   --dark-blue: #262341;
   --light-blue: #4ca1af;
-  --white: #fff;
+  --white: #fafafa;
 }
 
 body {
+  background-color: var(--white);
   text-align: center;
   font-family: Montserrat, sans-serif;
   font-size: 1rem;
@@ -73,7 +74,7 @@ a {
 }
 
 .btn-white:hover #btn-white {
-  color: #fff;
+  color: var(--white);
 }
 
 .btn::before {
@@ -99,8 +100,8 @@ a {
 }
 
 .btn-blue {
-  color: #fff;
-  border: 2px solid #fff;
+  color: var(--white);
+  border: 2px solid var(--white);
 }
 
 .btn-blue:hover {
@@ -108,7 +109,7 @@ a {
 }
 
 .btn-blue::before {
-  background: white;
+  background: var(--white);
 }
 
 .btn-blue:hover::before {
@@ -193,8 +194,6 @@ h3.project-title {
     font-size: 1rem;
   }
 }
-
-
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {
